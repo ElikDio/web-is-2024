@@ -6,63 +6,70 @@
     <meta name="description" content="Интернет-магазин товаров для газонов">
     <meta name="keywords" content="газон, ozon, gazon, товары, полив, газонокосилки, секаторы">
     <title>GAZON</title>
-    <link rel="stylesheet" href="outline-prototype.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="outline-prototype.css"> -->
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <p><b>Пункт GAZON:</b> Кронверкский пр-кт, д. 49</p>
-        <div>
-            <div>
-                <h1>GAZON</h1>
+        <div class="header-menu">
+            <div class="header-title">
+                <h1><b>GAZON</b></h1>
                 <button>Каталог</button>
             </div>
-            <nav>
-                <ul>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
                     <li><a href="#">Главная</a></li>
-                    <li><a href="#">Искусственный газон</a></li>
-                    <li><a href="#">Секаторы</a></li>
-                    <li><a href="#">Полив</a></li>
-                    <li><a href="#">Газонокосилки</a></li>
-                    <li><a href="#">Удобрения</a></li>
+                    <li><img src="img/grass.logo.png"><a href="#">Искусственный газон</a></li>
+                    <li><img src="img/scis.logo.png"><a href="#">Секаторы</a></li>
+                    <li><img src="img/spoil.logo.png"><a href="#">Полив</a></li>
+                    <li><img src="img/bosch.logo.png"><a href="#">Газонокосилки</a></li>
+                    <li><img src="img/vits.logo.png"><a href="#">Удобрения</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="products">
+            <div class="product-card">
+                <img src="img/grass.jpg">
                 <h3>1500 руб. <s>2500</s> <sup>-25%</sup></h3>
                 <p>Искусственный газон <b>"Green Grass"</b></p>
                 <button>Купить</button>
             </div>
 
-            <div>
+            <div class="product-card">
+                <img src="img/fiskars2.jpg">
                 <h3>2500 руб. <s>3500</s> <sup>-15%</sup></h3>
                 <p>Секатор <b>Fiskars</b></p>
                 <button>Купить</button>
             </div>
 
-            <div>
+            <div class="product-card">
+                <img src="img/bosch.jpg">
                 <h3>27500 руб. <s>35000</s> <sup>-12%</sup></h3>
                 <p>Газонокосилка <b>Bosch</b> Rotak 32</p>
                 <button>Купить</button>
             </div>
 
-            <div>
+            <div class="product-card">
+                <img src="img/autospoil.jpg">
                 <h3>12700 руб. <s>16000</s> <sup>-22%</sup></h3>
                 <p>Система автополива <b>Gardena</b></p>
                 <button>Купить</button>
             </div>
 
-            <div>
+            <div class="product-card">
+                <img src="img/grass2.jpg">
                 <h3>2700 руб. <s>10000</s> <sup>-80%!</sup></h3>
                 <p>Газончик</p>
                 <button>Купить</button>
             </div>
 
-            <div>
+            <div class="product-card">
+                <img src="img/fiskars.jpg">
                 <h3>3700 руб. <s>6000</s> <sup>-32%</sup></h3>
                 <p>Секатор <b>Fiskars</b> Plus</p>
                 <button>Купить</button>
@@ -72,18 +79,20 @@
         <aside>
             <h1>АКЦИЯ</h1>
             <h2>Все товары по распродаже!</h2>
+            <img src="img/news.png">
             <button>За покупками</button>
+            <img src="img/news2.png">
             <h2>Не упустите возможность!</h2>
             <button>Найти в каталоге</button>
         </aside>
     </main>
 
-    <footer>
-        <ul>
-            <a href="#">Apple</a>
-            <a href="#">Google</a>
-            <a href="#">Yandex</a>
-            <a href="#">VK</a>
+    <footer class="footer">
+        <ul class="links">
+            <a href="#"><img src="img/apple.svg" /></a>
+            <a href="#"><img src="img/google.svg" /></a>
+            <a href="#"><img src="img/yandex.svg" /></a>
+            <a href="#"><img src="img/vk.svg" /></a>
         </ul>
     </footer>
 
