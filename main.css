@@ -1,57 +1,43 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;/
+}
+
+button {
+    background-color: #005cbf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00429d;
 }
 
 .header {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     text-align: center;
-    position: relative;
 }
 
-.header-title {
-    display: flex;
-    justify-content: flex-start;
+.header p {
+    line-height: 30px;
 }
 
 .header-title button {
-    background-color: #005cbf;
-    color: white;
-    border: none;
-    padding: 0px 20px;
-    margin-left: 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1.2em;
+    height: 50px;
+    width: 100px;
 }
 
-.header-title h1 {
-    font-size: 3em;
-    color: #005cbf;
-    font-family: 'GT Eesti Pro Display', GT Eesti Pro;
-    margin: 0;
+.header-title a img {
+    width: 180px;
 }
 
 .header p {
     font-size: 16px;
     color: #333;
-    margin: 0;
-}
-
-
-.header-nav {
-    margin-top: 10px;
-}
-
-.header-nav-list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
 }
 
 .header-nav li {
@@ -62,7 +48,6 @@ body {
 
 .header-nav li img {
     width: 20px;
-    vertical-align: middle;
     margin-right: 8px;
 }
 
@@ -76,24 +61,15 @@ body {
     text-decoration: underline;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 70%;
-}
 
 .product-card {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
+    max-width: 20%;
+    max-height: 15%;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -105,32 +81,27 @@ main {
 .product-card h3 {
     font-size: 1.5em;
     color: #e62e50;
-    margin-bottom: 10px;
 }
 
 .product-card h3 s {
     color: #777;
 }
 
+.product-card h3 sup {
+    font-weight: 100;
+}
+
 .product-card p {
     font-size: 1em;
-    margin-bottom: 15px;
 }
 
 .product-card button {
-    background-color: #005cbf;
-    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1.2em;
 }
-
-.product-card button:hover {
-    background-color: #00429d;
-}
-
 
 aside {
     width: 25%;
@@ -159,33 +130,14 @@ aside img {
 }
 
 aside button {
-    background-color: #005cbf;
-    color: white;
     padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     font-size: 1.2em;
-}
-
-aside button:hover {
-    background-color: #00429d;
 }
 
 .footer {
     background-color: white;
-    display: flex;
-    justify-content: center;
     text-align: center;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.footer .links {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0 20px 0;
-    display: flex;
-    gap: 10px;
 }
 
 .footer .links a {
