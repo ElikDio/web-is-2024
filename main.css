@@ -19,7 +19,6 @@ button:hover {
 .header {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 .header p {
@@ -42,7 +41,6 @@ button:hover {
 
 .header-nav li {
     display: flex;
-    align-items: center;
     margin: 0 15px;
 }
 
